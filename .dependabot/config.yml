@@ -8,9 +8,7 @@ update_configs:
   - "RomanJRW"
   default_labels:
   - "dependencies"
-#  allowed_updates:
-#  - match:
-#      update_type: "security"
-# ignored_updates:
-#  - match:
-#      dependency_name: "express"
+  allowed_updates:
+  - match:
+      update_type: "security"
+      
